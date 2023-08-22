@@ -1,6 +1,7 @@
 import os
 
-
+# 文件格式如下
+# t=1692499311,d=baidu.com,r=sichuan,i=china-telecom,a=A,c_req=0,c_resp=0,c_req_s=18508,c_resp_s=5289746,ch_hit=0,ch_miss=0,ch_hit_s=0,ch_miss_s=5289746,p_req=0,p_resp=0,s_req=7628,s_resp=6295490,s_req_s=0,s_resp_s=0,code=206:6
 def get_all_files(path):
     files = []
     for f in os.listdir(path):
